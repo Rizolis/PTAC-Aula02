@@ -8,6 +8,8 @@ export default function App() {
         <p>Desenvolvido por: {nome}</p>
     </div>  
   );
+  <div>
+  <p>um dia eu vi um cahorro </p>
+</div>
 
-
-}
+  }
