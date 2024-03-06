@@ -1,19 +1,13 @@
-import Header from "./components/Header";
-export default function App() {
+import Header from "./components/header";
+import Footer from "./components/Footer";
+import "./globals.css"
 
-  
+export default function app() {
+
   return(
-    <main>
-      
-    <Header/>
-    <Header/>
-    <Header/>
-    <Header/>
-
-    </main>
- 
+    <div>
+      <Header/>
+      <Footer/>
+    </div>
   );
-  
-
-
-  }
+}
