@@ -3,3 +3,7 @@ header{
     background-color: aliceblue;
     border-bottom: #e51212 solid;
 }
+footer{
+    height: 100px;
+    background-color: azure;
+}
