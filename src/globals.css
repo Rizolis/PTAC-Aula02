@@ -1,9 +1,16 @@
 header{
     height: 100px;
-    background-color: aliceblue;
+    background-color: rgb(13, 127, 227);
     border-bottom: #e51212 solid;
 }
 footer{
-    height: 100px;
-    background-color: azure;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #08f93d;
+}
+form{
+    text-align: center;
 }
