@@ -1,7 +1,9 @@
 header{
+    text-align: center;
     height: 100px;
-    background-color: rgb(13, 127, 227);
-    border-bottom: #e51212 solid;
+
+    background-color: #772a59;
+   
 }
 footer{
     position: fixed;
@@ -9,7 +11,7 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: center;
-    background: #08f93d;
+    background: #772a59;
 }
 form{
     text-align: center;
