@@ -1,18 +1,9 @@
 header{
-    text-align: center;
     height: 100px;
-
-    background-color: #772a59;
-   
+    background-color: aliceblue;
+    border-bottom: #55e512e4 solid;
 }
 footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background: #772a59;
-}
-form{
-    text-align: center;
+    height: 100px;
+    background-color: aquamarine;
 }
