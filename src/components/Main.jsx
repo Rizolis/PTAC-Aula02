@@ -19,6 +19,21 @@ const [apelido, setApelido] = useState();
             console.table(listaContatos);
 
       }
+
+      const remover = (id) => {
+        const novaLista = listaContatos.filter(
+          (contato,index)=>{
+          if(index !== id){
+            return contato
+          }else{
+            return null;
+          }
+        }
+        );
+        setContatos(novaLista);
+        alert(id);
+      }
+
     return(
         <main>
         <form onSubmit={registrar}>
@@ -35,6 +50,16 @@ const [apelido, setApelido] = useState();
          <br>
           </br>
 
+
+
+
+{listaContatos.map((contato, index)  =>
+  <div key={index}>
+    <p>{ConstantSourceNode.nomeSalvo} </p>
+    <p>{contato.telefoneSalvo}</p>
+    <button onClick={()=> removeEventListener(index)}>X</button>
+    </div>
+)}
 
              <label htmlFor="telefone">Telefone :</label>
            <input
@@ -72,3 +97,4 @@ onChange={(event) => setApelido(event.target.value)}
         </main>
     );
 }
+neymar 
